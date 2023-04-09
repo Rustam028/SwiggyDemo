@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+li{
+    list-style: none;
+}
+
+.hero{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section_01{
+    width: 55%;
+    height: 72vh;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 80%;
+    height: 65vh;
+    margin: 0 0 0 138px;
+    padding-top: 50px;
+}
+.head{
+    width: 100%;
+    display: flex;
+}
+.logo{
+    width: 60%;
+    height: 100px;
+}
+.logo img{
+    height: 65px;
+}
+.loginbtn{
+    width: 17%;
+    height: 45px;
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.signbtn{
+    width: 17%;
+    height: 45px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.text_part{
+    margin-top: 30px;
+}
+.wrapper::after{
+    content: "";
+    width: 70%;
+    font-size: 35px;
+    font-weight: 600;
+    color: #282c3f;
+    animation: slider 10s ease-out infinite;
+}
+ @keyframes slider{
+    0%{
+        content: "Hungry?";
+    }
+    25%{
+        content: "Unexpected guests?";
+    }
+    50%{
+        content: "Cooking gone wrong?";
+    }
+    75%{
+        content: "Movie marathons?";
+    }
+    100%{
+        content: "Game night?";
+    }
+ }
+.txt_1{
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    line-height: 40px;
+    color: #686b78;
+ }
+ #bar{
+    display: flex;
+    width: 93%;
+ }
+.searchbar{
+    width: 80%;
+    margin-top: 40px;
+    border: 1.5px solid #fc8019;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .12);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchbar input{
+border: none;
+padding: 15px;
+justify-content: center;
+text-align: center;
+}
+.locatebtn{
+    width: 20%;
+    border: none;
+    font-size: 14px;
+    background: transparent;
+    font-weight: 500;
+    color: #535665;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+#bar img{
+    width: 13px;
+    margin-left: 180px;
+}
+.findbtn{
+    margin-top: 40px;
+    width: 20%;
+    height: 60px;
+    border: none;
+    background-color: #fc8019;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, .12);
+}
+.txt_2{
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -.2px;
+    margin: 30px 0 10px;
+    text-transform: uppercase;
+    color: #a9abb2;
+}
+.cityname{
+    display: flex;
+}
+.citytext_dark{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -.3px;
+    line-height: 1.5;
+    margin-right: 8px;
+    color: #686b78;
+}
+.citytext{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: -.3px;
+    line-height: 1.5;
+    margin-right: 8px;
+    color: #93959f;
+}
+.section_02{
+    width: 45%;
+    height: 72vh;
+    align-items: center;
+    justify-content: center;
+}
+.section_02 img{
+    width: 100%;
+    height: 72vh;
+}
+
+.part-1{
+    width: 100%;
+    height: 40vh;
+    padding: 0 20px;
+    background-color: #2b1e16;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    text-align: center;
+    align-items: center;
+}
+.box h3{
+font-size: 20px;
+font-weight: 600;
+color: #fff;
+margin-top: 15px;
+}
+.box p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #e0cbc1;
+    line-height: 1.3;
+}
